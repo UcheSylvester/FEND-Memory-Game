@@ -47,15 +47,15 @@ h1 {
 /*For both intro and game over modal*/
 .modal-body {
     position: relative;
-    width: 450px;
-    top: 50%;
+    width: 500px;
+    top: 70%;
     left: 50%;
     background: #ffffff url(../img/geometry2.png);
     transform: translate(-50%, -70%);
     text-align: center;
     border: 3px solid #A9A9A9;
     border-radius: 20px;
-    padding: 0.5em;
+    padding: 1em;
     font-size: 17px;
 }
 
