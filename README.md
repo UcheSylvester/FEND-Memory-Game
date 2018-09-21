@@ -13,6 +13,23 @@ To get started, open `js/app.js` and start building out the app's functionality
 
 For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
+
+### Game Objective:
+
+**Match all cards to win the game!**
+
+### Playing the Game:
+
+Try finding the match to any box by clicking on another box.
+
+#### Notes:
+
+This game is to test your *memory*. So try finishing the game with less than *16 moves* to get *3 stars!*
+
+*Be careful*, clicking on the restart will erase all progress made! 
+
+**Just relax and have fun!**
+
 ## Contributing
 
 This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
