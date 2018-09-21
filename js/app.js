@@ -41,8 +41,8 @@ function toShuffleDeck() {
 		deck.appendChild(shuffledCards[i]);
 	}
 }
-toShuffleDeck()
-;
+toShuffleDeck();
+
 
 /*
  * set up the event listener for a card. If a card is clicked:
@@ -181,7 +181,7 @@ function toggleModal() {
 // Function that displays the modal stats
 function writeModalStats() {
 	const timeStat = document.querySelector('.modal-time');
-	const clockTime = document.querySelector('.clock').innerHTML;
+	const clockTime = document.querySelector('.clock').textContent;
 	const movesStat = document.querySelector('.modal-moves');
 	const starsStat = document.querySelector('.modal-stars');
 	const stars = getStars();
@@ -207,7 +207,7 @@ function getStars() {
 document.querySelector('.restart').addEventListener('click', resetGame);
 
 // Making the cancel button on the modal close modal on click
-document.querySelector('.modal-cancel').addEventListener('click', toggleModal);
+document.querySelector('.modal-cancel', '.modal-close').addEventListener('click', toggleModal);
 
 // Making the replay button on the modal reset the game on click
 document.querySelector('.modal-replay').addEventListener('click', replayGame);
