@@ -1,4 +1,3 @@
-// "use strict";
 /*
  * Create a list that holds all of your cards
  */
@@ -67,7 +66,6 @@ deck.addEventListener('click', function(evt) {
 		toggleCard(clickTarget);
 		addToToggledCards(clickTarget);
 		if(toggledCards.length === 2) {
-			// console.log('2 cards');
 			checkForMatch(clickTarget);
 			increaseMove();
 			checkScore();
@@ -144,7 +142,6 @@ function startClock() {
 		displayTime();
 	}, 1000);
 }
-// startClock();
 
 // Function that displays the clock
 function displayTime() {
@@ -158,7 +155,6 @@ function displayTime() {
 		clock.innerHTML = `TIME: ${minutes}:${seconds}`;
 	}
 }
-// displayTime();
 
 // Function that stops or pauses clock
 function stopClock() {
@@ -204,7 +200,6 @@ function getStars() {
 			starCount++;
 		}
 	}
-	// console.log(starCount);
 	return starCount;
 }
 
@@ -254,7 +249,6 @@ function resetStars() {
 
 // Checking for win condition
 function win() {
-	// matched++
 	if(matched === TOTAL_PAIRS) {
 		gameOver();
 	}
@@ -270,7 +264,6 @@ function gameOver() {
 
 // Function to replay game
 function replayGame() {
-	// matched = 0
 	resetGame();
 	toggleModal();
 	resetCards();
